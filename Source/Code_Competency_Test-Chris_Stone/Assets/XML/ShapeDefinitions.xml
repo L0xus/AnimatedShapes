@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!DOCTYPE prototypes
+[
+	<!ELEMENT prototypes (square, triangle, circle, hexagon)>
+
+	<!ELEMENT square  (sideLength, colour, spawnPoint, animation)>
+	<!ELEMENT triangle (width, height, colour, spawnPoint, animation)>
+	<!ELEMENT circle (radius, colour, spawnPoint, animation)>
+	<!ELEMENT hexagon (width, height, colour, spawnPoint, animation)>
+
+	<!ELEMENT colour(r, g, b, a)>
+	<!ELEMENT spawnPoint(x, y)>
+	<!ELEMENT animation(ID, speed)>
+
+	<!--	
+		For animation ID:
+		Left To Right 	= 0
+		Up And Down		= 1
+		Circular		= 2
+		Box				= 3
+	 -->
+]>
+
+<!-- List of all prototypes -->
+<prototypes>
+
+	<!-- Square definition -->
+	<square>
+		<sideLength> 0.5 </sideLength>
+		<colour>
+			<r> 0.5 </r>
+			<g> 1.0 </g>
+			<b> 1.0 </b>
+			<a> 1.0 </a>
+		</colour>
+		<spawnPoint>
+			<x> 0.2 </x>
+			<y> 0.5 </y>
+		</spawnPoint>
+		<animation> 
+			<ID> 2 </ID>
+			<speed> 1.0 </speed>
+		</animation>
+	</square>
+
+	<triangle>
+		<width> 0.5 </width>
+		<height> 0.6 </height>
+		<colour>
+			<r> 0.0 </r>
+			<g> 0.0 </g>
+			<b> 1.0 </b>
+			<a> 1.0 </a>
+		</colour>
+		<spawnPoint>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+		</spawnPoint>
+		<animation> 
+			<ID> 1 </ID>
+			<speed> 1.0 </speed>
+		</animation>
+	</triangle>
+
+	<circle>
+		<radius> 0.5 </radius>
+		<colour>
+			<r> 0.0 </r>
+			<g> 1.0 </g>
+			<b> 1.0 </b>
+			<a> 1.0 </a>
+		</colour>
+		<spawnPoint>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+		</spawnPoint>
+		<animation> 
+			<ID> 2 </ID>
+			<speed> 1.0 </speed>
+		</animation>
+	</circle>
+
+	<hexagon>
+		<width> 0.5 </width>
+		<height> 0.5 </height>
+		<colour>
+			<r> 1.0 </r>
+			<g> 1.0 </g>
+			<b> 0.0 </b>
+			<a> 1.0 </a>
+		</colour>
+		<spawnPoint>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+		</spawnPoint>
+		<animation> 
+			<ID> 3 </ID>
+			<speed> 1.0 </speed>
+		</animation>
+	</hexagon>
+
+</prototypes>

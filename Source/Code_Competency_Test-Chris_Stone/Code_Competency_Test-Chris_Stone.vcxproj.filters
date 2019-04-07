@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Animations">
+      <UniqueIdentifier>{8f176956-e50d-4529-872f-4d779867a47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animations">
+      <UniqueIdentifier>{c453832a-58e9-4911-9ca5-feba80c2ef47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{0768fa0b-4c66-4c5a-944e-567a1781d2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{928459ef-b63a-4997-b017-d4a6c6def16f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftRightAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDownAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxAnimation.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPrototypeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Hexagon.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftRightAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDownAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxAnimation.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPrototypeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hexagon.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
